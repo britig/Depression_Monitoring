@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_current"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Current Activity Prediction" />
+        <item
+            android:id="@+id/nav_prediction"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Health Prediction" />
+    </group>
+
+</menu>
