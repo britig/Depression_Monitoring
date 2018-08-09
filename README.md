@@ -9,3 +9,5 @@ for training the data for recognizing different activities. The trained model is
 The model records activities and stores the collected data in firebase database over cloud. It fits a logistic rgression model over this collected data along with other parameters to predict depression.
 
 The machine learning codes are available in Depression_Monitoring.ipnyb
+
+
